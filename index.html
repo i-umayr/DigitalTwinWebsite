@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Twin Technologies | DIIM Lab</title>
+    <meta
+      name="description"
+      content="Exploring the future of Digital Twin technology at the DIIM Lab, University of Guelph."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ==========================================
+         NAVIGATION
+         ========================================== -->
+    <nav class="nav">
+      <div class="nav__container">
+        <a href="index.html" class="nav__logo">
+          <div class="nav__logo-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="white" />
+              <path
+                d="M2 17L12 22L22 17"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2 12L12 17L22 12"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          DIIM Lab
+        </a>
+        <ul class="nav__links">
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+          <li>
+            <a
+              href="https://sy1990.github.io/diim-lab/"
+              target="_blank"
+              class="nav__link"
+              >Main Lab Site</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__mesh"></div>
+      <div class="hero__content">
+        <div class="hero__badge">DIIM Lab Research</div>
+        <h1 class="hero__title">
+          Exploring the Future of
+          <span class="gradient-text">Digital Twin</span> Technology
+        </h1>
+        <p class="hero__description">
+          Bridging physical and digital worlds through cutting-edge research in
+          AI, smart manufacturing, and intelligent systems at the University of
+          Guelph.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PROJECTS SECTION
+         ========================================== -->
+    <section class="projects" id="projects">
+      <div class="section-header fade-in">
+        <div class="section-label">Research Projects</div>
+        <h2 class="section-title">Digital Twin Innovations</h2>
+        <p class="section-desc">
+          Exploring the intersection of physical systems and their digital
+          counterparts across diverse domains.
+        </p>
+      </div>
+
+      <div class="projects__grid">
+        <!-- ======== PROJECT 1: Gated MLP ======== -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="images/gated-mlp/hero.png" alt="Gated MLP Architecture" />
+            <div class="project-card__image-placeholder">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1"
+                viewBox="0 0 24 24"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21,15 16,10 5,21" />
+              </svg>
+            </div>
+            <div class="project-card__overlay">
+              <span class="project-card__tag">Human-Robot Interaction</span>
+              <h3 class="project-card__title">
+                Gated MLP for Human Motion Prediction
+              </h3>
+              <span class="project-card__author"
+                >NPJ Advanced Manufacturing</span
+              >
+            </div>
+          </div>
+          <div class="project-card__content">
+            <p class="project-card__description">
+              A simple MLP architecture that outperforms complex Graph
+              Convolutional Networks by 9% while using 9.3× fewer parameters —
+              proving that architectural simplicity beats complexity for motion
+              prediction.
+            </p>
+            <a
+              href="projects/gated-mlp-motion-prediction.html"
+              class="btn btn--link"
+            >
+              Learn more
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ======== PROJECT 2 ======== -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <div class="project-card__image-placeholder">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1"
+                viewBox="0 0 24 24"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21,15 16,10 5,21" />
+              </svg>
+            </div>
+            <div class="project-card__overlay">
+              <span class="project-card__tag">Precision Agriculture</span>
+              <h3 class="project-card__title">
+                AI-Driven Crop Monitoring System
+              </h3>
+              <span class="project-card__author">Researcher Name</span>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <p class="project-card__description">
+              Leveraging digital twin technology and machine learning to create
+              intelligent systems for real-time crop health assessment and yield
+              optimization.
+            </p>
+            <a href="projects/project-2.html" class="btn btn--link">
+              Learn more
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ======== PROJECT 3 ======== -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <div class="project-card__image-placeholder">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1"
+                viewBox="0 0 24 24"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21,15 16,10 5,21" />
+              </svg>
+            </div>
+            <div class="project-card__overlay">
+              <span class="project-card__tag">Sustainable Energy</span>
+              <h3 class="project-card__title">
+                Renewable Energy Grid Optimization
+              </h3>
+              <span class="project-card__author">Researcher Name</span>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <p class="project-card__description">
+              Digital twin modeling for sustainable energy systems, enabling
+              predictive analytics and optimization of renewable energy
+              distribution networks.
+            </p>
+            <a href="projects/project-3.html" class="btn btn--link">
+              Learn more
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ======== PROJECT 4 ======== -->
+        <article class="project-card">
+          <div class="project-card__image">
+            <div class="project-card__image-placeholder">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1"
+                viewBox="0 0 24 24"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21,15 16,10 5,21" />
+              </svg>
+            </div>
+            <div class="project-card__overlay">
+              <span class="project-card__tag">Human-Centered Design</span>
+              <h3 class="project-card__title">
+                Personalized Product Development
+              </h3>
+              <span class="project-card__author">Researcher Name</span>
+            </div>
+          </div>
+          <div class="project-card__content">
+            <p class="project-card__description">
+              Integrating digital twin concepts with human-centered design
+              principles to create customizable, user-adaptive product
+              experiences.
+            </p>
+            <a href="projects/project-4.html" class="btn btn--link">
+              Learn more
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- 
+            ======== ADD NEW PROJECTS HERE ========
+            Copy a project-card template above and paste here.
+            Update: tag, title, author, description, and link.
+            -->
+      </div>
+    </section>
+
+    <!-- ==========================================
+         ABOUT SECTION
+         ========================================== -->
+    <section class="about" id="about">
+      <div class="section-header fade-in">
+        <div class="section-label">About Us</div>
+        <h2 class="section-title">DIIM Lab</h2>
+      </div>
+
+      <div class="about__content">
+        <div class="about__text fade-in">
+          <p>
+            The Lab of Design Innovation and Intelligent Manufacturing (DIIM)
+            was established by Dr. Sheng Yang in September 2020, affiliated with
+            the College of Engineering at the University of Guelph in Ontario,
+            Canada.
+          </p>
+          <p>
+            We are a highly multidisciplinary research team with members from
+            mechanical engineering, computer engineering, and data science. Our
+            mission is to develop the next generation of intelligent engineering
+            systems through synergistic research on AI, digital twins, and
+            human-centered design.
+          </p>
+        </div>
+
+        <div class="stats-grid fade-in">
+          <div class="stat">
+            <div class="stat__value">2020</div>
+            <div class="stat__label">Established</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value">4+</div>
+            <div class="stat__label">Research Areas</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value">10+</div>
+            <div class="stat__label">Team Members</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value">∞</div>
+            <div class="stat__label">Possibilities</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT SECTION
+         ========================================== -->
+    <section class="contact" id="contact">
+      <div class="section-header fade-in">
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-desc">
+          Interested in collaboration or learning more about our research?
+        </p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact-card fade-in">
+          <div class="contact-card__icon">
+            <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Address</h3>
+          <p class="contact-card__text">
+            50 Stone Road East<br />
+            Guelph, Ontario, Canada<br />
+            N1G 2W1
+          </p>
+        </div>
+
+        <div class="contact-card fade-in">
+          <div class="contact-card__icon">
+            <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9,22 9,12 15,12 15,22" />
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Office & Lab</h3>
+          <p class="contact-card__text">
+            Office: Richards Building, Room 3501<br />
+            Lab: Richards Building, Room 1525
+          </p>
+        </div>
+
+        <div class="contact-card fade-in">
+          <div class="contact-card__icon">
+            <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Email</h3>
+          <p class="contact-card__text">
+            <a href="mailto:syang19@uoguelph.ca">syang19@uoguelph.ca</a>
+          </p>
+        </div>
+
+        <div class="contact-card fade-in">
+          <div class="contact-card__icon">
+            <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+          </div>
+          <h3 class="contact-card__title">Phone</h3>
+          <p class="contact-card__text">
+            (+1) 519-824-4120<br />
+            Ext. 58677
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer class="footer">
+      <div class="footer__content">
+        <a href="index.html" class="footer__logo">
+          <div class="nav__logo-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="white" />
+              <path
+                d="M2 17L12 22L22 17"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2 12L12 17L22 12"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          DIIM Lab
+        </a>
+        <div class="footer__links">
+          <a
+            href="https://sy1990.github.io/diim-lab/"
+            target="_blank"
+            class="footer__link"
+            >Main Lab Website</a
+          >
+          <a
+            href="https://www.youtube.com/channel/UCh6oN-DiD9h4lSHXrCd7Ccg"
+            target="_blank"
+            class="footer__link"
+            >YouTube Channel</a
+          >
+          <a
+            href="https://www.uoguelph.ca/engineering/"
+            target="_blank"
+            class="footer__link"
+            >College of Engineering</a
+          >
+          <a
+            href="https://www.uoguelph.ca/"
+            target="_blank"
+            class="footer__link"
+            >University of Guelph</a
+          >
+        </div>
+        <div class="footer__copy">
+          © 2025 Design Innovation and Intelligent Manufacturing Lab. University
+          of Guelph.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

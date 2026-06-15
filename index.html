@@ -63,19 +63,7 @@
       </div>
     </nav>
 
-    <!-- ==========================================
-         HERO SECTION WITH BACKGROUND IMAGE
-         
-         To change the image:
-         1. Add your image to the images/ folder
-         2. Update the src below (e.g., src="images/hero-bg.jpg")
-         
-         For light images, use class="hero"
-         For dark images, add class="hero hero--dark" to use 
-         white text with dark overlay
-         ========================================== -->
     <section class="hero hero--dark">
-      <!-- Background Image -->
       <div class="hero__image">
         <img src="images/hero.jpg" alt="" aria-hidden="true" />
       </div>
@@ -83,7 +71,6 @@
       <div class="hero__bg"></div>
       <div class="hero__mesh"></div>
       <div class="hero__content">
-        <div class="hero__badge">DIIM Lab Research</div>
         <h1 class="hero__title">
           Exploring the Future of
           <span class="gradient-text">Digital Twin</span> Technology
@@ -111,9 +98,6 @@
       </div>
 
       <div class="projects__grid">
-        <!-- ============================================================
-             PROJECT 1
-             ============================================================ -->
         <article class="project-card">
           <div class="project-card__image">
             <img src="images/project1.png" alt="Project 1 Image" />
@@ -151,9 +135,6 @@
           </div>
         </article>
 
-        <!-- ============================================================
-             PROJECT 2
-             ============================================================ -->
         <article class="project-card">
           <div class="project-card__image">
             <img src="images/project2.png" alt="Project 2 Image" />
@@ -168,9 +149,6 @@
           </div>
         </article>
 
-        <!-- ============================================================
-             PROJECT 3
-             ============================================================ -->
         <article class="project-card">
           <div class="project-card__image">
             <img src="images/project3.png" alt="Project 3 Image" />
@@ -185,9 +163,6 @@
           </div>
         </article>
 
-        <!-- ============================================================
-             PROJECT 4
-             ============================================================ -->
         <article class="project-card">
           <div class="project-card__image">
             <img src="images/project4.png" alt="Project 4 Image" />
@@ -305,22 +280,57 @@
         </p>
       </div>
 
-      <div class="contact__grid">
+      <div class="contact__grid contact__grid--three">
+        <!-- Card 1: Principal Investigator -->
         <div class="contact-card fade-in">
           <div class="contact-card__icon">
             <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-              <circle cx="12" cy="10" r="3" />
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
             </svg>
           </div>
-          <h3 class="contact-card__title">Address</h3>
-          <p class="contact-card__text">
-            50 Stone Road East<br />
-            Guelph, Ontario, Canada<br />
-            N1G 2W1
-          </p>
+          <div>
+            <span class="contact-card__pi-name">Dr. Sheng Yang</span>
+          </div>
+          <div class="contact-card__divider"></div>
+          <div class="contact-card__rows">
+            <div class="contact-card__row">
+              <svg
+                class="contact-card__row-icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <a href="mailto:syang19@uoguelph.ca" class="contact-card__link"
+                >syang19@uoguelph.ca</a
+              >
+            </div>
+            <div class="contact-card__row">
+              <svg
+                class="contact-card__row-icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+              <span class="contact-card__text"
+                >(+1) 519-824-4120 &nbsp;&middot;&nbsp; Ext. 58677</span
+              >
+            </div>
+          </div>
         </div>
 
+        <!-- Card 2: Location -->
         <div class="contact-card fade-in">
           <div class="contact-card__icon">
             <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
@@ -328,41 +338,131 @@
               <polyline points="9,22 9,12 15,12 15,22" />
             </svg>
           </div>
-          <h3 class="contact-card__title">Office & Lab</h3>
-          <p class="contact-card__text">
-            Office: Richards Building, Room 3501<br />
-            Lab: Richards Building, Room 1525
-          </p>
+          <h3 class="contact-card__title">Location</h3>
+          <div class="contact-card__rows">
+            <div class="contact-card__row">
+              <svg
+                class="contact-card__row-icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span class="contact-card__text"
+                >50 Stone Road East, Guelph, Ontario, Canada &nbsp;N1G 2W1</span
+              >
+            </div>
+            <div class="contact-card__divider"></div>
+            <div class="contact-card__row contact-card__row--col">
+              <svg
+                class="contact-card__row-icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+              <div>
+                <p class="contact-card__text">
+                  <strong>Office</strong> &nbsp;Richards Building, Room 3501
+                </p>
+                <p class="contact-card__text">
+                  <strong>Lab</strong> &nbsp;Richards Building, Room 1525
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <!-- Card 3: Connect -->
         <div class="contact-card fade-in">
           <div class="contact-card__icon">
             <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
               <path
-                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-              />
-              <polyline points="22,6 12,13 2,6" />
-            </svg>
-          </div>
-          <h3 class="contact-card__title">Email</h3>
-          <p class="contact-card__text">
-            <a href="mailto:syang19@uoguelph.ca">syang19@uoguelph.ca</a>
-          </p>
-        </div>
-
-        <div class="contact-card fade-in">
-          <div class="contact-card__icon">
-            <svg fill="none" stroke-width="2" viewBox="0 0 24 24">
-              <path
-                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
               />
             </svg>
           </div>
-          <h3 class="contact-card__title">Phone</h3>
-          <p class="contact-card__text">
-            (+1) 519-824-4120<br />
-            Ext. 58677
-          </p>
+          <h3 class="contact-card__title">Connect</h3>
+          <div class="contact-card__links-list">
+            <a
+              href="https://sy1990.github.io/diim-lab/"
+              target="_blank"
+              class="contact-card__ext-link"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                <polyline points="9,22 9,12 15,12 15,22" />
+              </svg>
+              Main Lab Website
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCh6oN-DiD9h4lSHXrCd7Ccg"
+              target="_blank"
+              class="contact-card__ext-link"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"
+                />
+                <polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02" />
+              </svg>
+              YouTube Channel
+            </a>
+            <a
+              href="https://www.uoguelph.ca/engineering/"
+              target="_blank"
+              class="contact-card__ext-link"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+              College of Engineering
+            </a>
+            <a
+              href="https://www.uoguelph.ca/"
+              target="_blank"
+              class="contact-card__ext-link"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path
+                  d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                />
+              </svg>
+              University of Guelph
+            </a>
+          </div>
         </div>
       </div>
     </section>
